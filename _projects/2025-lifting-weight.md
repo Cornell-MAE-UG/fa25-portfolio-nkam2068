@@ -7,9 +7,13 @@ image: /assets/images/staticshw5.jpg
 ---
 
 
-Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed length (your
-choice), 3 pin supports of which two need to be mounted on the ground and a linear
-actuator (pick from this online catalog, use max force values only), design a
-frame/mechanism to lift the maximum possible weight to the highest possible height.
-Assume all the supports and bar/actuator are rigid.
+Problem: Design a frame/mechanism to lift the maximum possible weight to the highest possible height.
 
+Constraints:
+- Design must be contained in a 2D space of 150cm long and 50cm tall.
+- Design must involve at most 3 pin supports, two of which must be mounted on the ground
+- Design must include a linear actuator
+- Assume all supports and bar/actuator are rigid.
+
+Static Analysis:
+See image for FBD of mechanism along with use of equilibrium equations to determine maximum weight (220.5 kN) lifted to a height of 50 cm.
